@@ -1,0 +1,104 @@
+.quiz-options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-option {
+    margin-bottom: 10px;
+    border: 2px solid #FF9800;
+    display: flex;
+    cursor: pointer;
+    margin: 40px 80px;
+    background-color: #fff;
+    min-height: 70px;
+    /* transition: #fff .3s ease, border-color .3s ease, transform .3s ease; */
+  }
+  
+  .quiz-option span{
+    background-color: #FF9800;
+    color: #fff;
+    font-size: 30px;
+    flex: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: #fff .3s ease;
+  }
+  .quiz-option button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid darkorange;
+    cursor: pointer;
+    justify-content: center;
+    transition: #fff 0.3s ease;
+    align-items: center;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+  
+  .quiz-option button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .quiz-question{
+    display: block;
+    align-items: center;
+    background-color:darkorange;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: 40px 80px;
+  }
+
+  .quiz-question p{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    text-align: center;
+  }
+  .quiz-question h3{
+    text-align: center;
+    color: #0b0e21;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    padding: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .quiz-option button.selected {
+    background-color: green;
+    color: #fff;
+  }
+  .submit{
+    text-align: center;
+    margin: 20px 0;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+  }
+  .next-button{
+    border: 2px solid darkorange;
+    border-radius: 0;
+    background-color: darkorange;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 75px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    transition: color .2s ease, background-color .2s ease;
+  }
